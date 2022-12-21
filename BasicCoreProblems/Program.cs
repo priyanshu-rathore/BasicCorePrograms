@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1. Flip coin  2. Leap year  3. Power of 2");
+            Console.WriteLine("(1. Flip coin  (2. Leap year  (3. Power of 2  (4. Harmonic Progression");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -15,6 +15,9 @@
                     break;
                 case 3: PowerOF2.powerof2();
                     break;
+                case 4: HarmonicProgression.Hp();
+                    break;
+
             }
         }
     }
