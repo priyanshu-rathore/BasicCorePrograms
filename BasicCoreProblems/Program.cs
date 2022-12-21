@@ -24,6 +24,8 @@
                     break;
                 case 7: Swap.swap();
                     break;
+                case 8: EvenOdd.evenOdd();
+                    break;
 
             }
         }
