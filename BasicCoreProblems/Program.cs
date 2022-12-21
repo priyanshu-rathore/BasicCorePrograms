@@ -26,6 +26,8 @@
                     break;
                 case 8: EvenOdd.evenOdd();
                     break;
+                case 9: VowelConsonant.vowelConsonant();
+                    break;
 
             }
         }
