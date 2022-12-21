@@ -28,6 +28,8 @@
                     break;
                 case 9: VowelConsonant.vowelConsonant();
                     break;
+                case 10: LargestNumber.largestNumber();
+                    break;
 
             }
         }
